@@ -1,0 +1,270 @@
+
+.possible_answer  {
+    padding: .75em;
+}
+
+.possible_answer:hover {
+	background: rgba(254, 231, 88, 1);
+	cursor: pointer;
+    font-weight: bold;
+}
+
+.correct-answer, .wrong-answer {
+	opacity: .75;
+	cursor: pointer;
+}
+
+.wrong-answer {
+	background: #FF8362;
+}
+
+.correct-answer {
+    background: #62DA97;
+}
+
+.selected {
+    opacity: 1;
+}
+
+.selected:hover, .correct-answer:hover, .wrong-answer:hover {
+	opacity: 1;
+}
+
+.how_you_did {
+	text-align: center;
+	padding: 1em;
+	background-color: rgb(254, 231, 88);
+	font-weight: bold;
+	font-size: 1.25em;
+	-webkit-box-shadow: 0px 7px 5px rgba(50, 50, 50, 0.65);
+	-moz-box-shadow:    0px 7px 5px rgba(50, 50, 50, 0.65);
+	box-shadow:         0px 7px 5px rgba(50, 50, 50, 0.65);
+}
+
+/*multimedia styling*/
+
+img, .youtube {
+
+}
+
+.possible_answer img {
+	max-height: 24em;
+}
+
+.question img, .revealed_answer img, .selected img, .correct-answer img, .wrong-answer img {
+    max-height: 24em;
+    display: block;
+}
+
+.videoembed {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.videoembed iframe, .videoembed object, .videoembed embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+  position:absolute;
+  /*this is the gray used throughout*/
+  color:#3d3d3d;
+  top:.7em;
+left:30px;
+  font-size:4.3em;
+  /*this is the curly type used throughout the slides*/
+  font-family: 'Shrikhand', cursive;
+}
+
+h2{
+  position:relative;
+  top:10vw;
+  font-size:2em;
+  left:17em;
+  /*this is the sans serif used in the slides*/
+  font-family: 'Poppins', sans-serif;
+}
+
+/*for the sources page*/
+.sources:hover{
+  color:#99d9ff;
+  text-decoration:none;
+
+}
+
+h3{
+  position:relative;
+  color:white;
+  top:20vw;
+left:9vw;
+  font-size:2em;
+  font-family: 'Shrikhand', cursive;
+}
+/*this is for the other side of the sources page*/
+h4{
+  position:relative;
+  color:white;
+  top:2.1vw;
+left:64vw;
+  font-size:2em;
+  font-family: 'Shrikhand', cursive;
+}
+.slides-navigation{
+  top:45em;
+right:20em;
+}
+
+/*this is the title for slide one for the mobile version*/
+h5{
+
+  color:#3d3d3d;
+  font-size:2.3em;
+  top:30px;
+  font-family: 'Shrikhand', cursive;
+  position:relative;
+  align-items: center;
+
+}
+
+h6{
+  position:relative;
+  top:30px;
+  font-size:1.4em;
+
+
+  font-family: 'Poppins', sans-serif;
+}
+
+/*this is the basic template for all the buttons used in the slider*/
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: inherit;
+  color:inherit;
+  position:absolute;
+  bottom:27em;
+  left:38.5em;
+  font-size:1.2vw;
+  font-family: 'Poppins', sans-serif;
+}
+
+a.btn-primary-outline:hover {
+  background-color: white;
+  border-color: white;
+  color:#2F90B4;
+
+}
+
+/*this si code for the button on slide one in the mobile version*/
+.slide1{
+  position:absolute;
+  font-size:3.6vw;
+  bottom:31em;
+  left:9em;
+}
+
+
+.intro-mobile{
+  position:absolute;
+  font-size:3.6vw;
+  bottom:4em;
+  left:10.3em;
+  color:white;
+}
+/*THESE ARE THE BUTTONS AT THE BOTTOM OF SLIDES 3,4, AND 5*/
+
+/*this is the false button*/
+.option1 {
+  background-color: transparent;
+  border-color: inherit;
+  color:white;
+  position:absolute;
+  bottom:2em;
+  left:35em;
+  font-size:1.2vw;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+a.option1:hover {
+  background-color: white;
+  border-color: white;
+  color:#2F90B4;
+
+}
+ /*this is the true button*/
+.option2 {
+  background-color: transparent;
+  border-color: inherit;
+  color:white;
+  position:absolute;
+  bottom:2em;
+  left:45em;
+  font-size:1.2vw;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+a.option2:hover {
+  background-color: white;
+  border-color: white;
+  color:#2F90B4;
+
+}
+/*this is the button to begin the quiz and go to slide 3*/
+.begin {
+  background-color: transparent;
+  border-color: inherit;
+  color:white;
+  position:absolute;
+  bottom:2em;
+  left:39em;
+  font-size:1.2vw;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+a.begin:hover {
+  background-color: white;
+  border-color: white;
+  color:#2F90B4;
+
+}
+/*this is the code for the button on the dead page*/
+.restart {
+  background-color: transparent;
+  border-color: inherit;
+  color:white;
+  position:absolute;
+  bottom:6em;
+  left:39em;
+  font-size:1.2vw;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+a.restart:hover {
+  background-color: white;
+  border-color: white;
+  color:#2F90B4;
+
+}
+
+.bottom-buttons{
+  top:50vw;
+  position:absolute;
+}
+
+/*this is the container for the buttons*/
+.container{
+  width:50%;
+  margin:auto;
+  object-position: center;
+
+}
