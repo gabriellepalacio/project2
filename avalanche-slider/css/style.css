@@ -99,6 +99,23 @@ h2{
 
 }
 
+/*for the mobile sources*/
+
+.sources-m{
+  position:relative;
+  color:white;
+  top:6vw;
+right:9vw;
+  font-size:.7em;
+  font-family: 'Shrikhand', cursive;
+  margin:auto;
+}
+.sources-m:hover{
+  color:#99d9ff;
+  text-decoration:none;
+
+}
+
 h3{
   position:relative;
   color:white;
@@ -236,6 +253,25 @@ a.begin:hover {
   color:#2F90B4;
 
 }
+/*this is the restart button for mobile*/
+.restart-mobile {
+  background-color: transparent;
+  border-color: inherit;
+  color:white;
+  position:absolute;
+  bottom:8em;
+  left:10em;
+  font-size:4vw;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+a.restart-mobile:hover {
+  background-color: white;
+  border-color: white;
+  color:#2F90B4;
+
+}
 /*this is the code for the button on the dead page*/
 .restart {
   background-color: transparent;
@@ -255,6 +291,7 @@ a.restart:hover {
   color:#2F90B4;
 
 }
+
 
 .bottom-buttons{
   top:50vw;
